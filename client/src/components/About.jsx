@@ -24,7 +24,7 @@ const About = () => {
           </div>
 
           <div className="text-center px-6">
-            <h2 className="text-xl font-bold mb-4">Motto: Reuse Old Books to Save Trees</h2>
+            <h2 className="text-xl font-bold mb-4">Moto: Reuse Old Books to Save Trees</h2>
             <p className="text-sm text-gray-700 dark:text-gray-300 mb-2">
               The core mission of this website is to encourage the reuse of old books. This initiative is driven by the understanding that paper production relies heavily on trees, leading to deforestation.
             </p>
