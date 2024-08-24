@@ -3,7 +3,6 @@ import {
     RouterProvider,
 } from "react-router-dom";
 import App from "../App";
-import Home from "../Home/home";
 import Shop from "../shop/Shop";
 import About from "../components/About";
 import SingleBook from "../shop/SingleBook";
@@ -17,6 +16,7 @@ import Login from "../components/Login";
 import PrivateRoute from "../../PrivateRoute/PrivateRoute";
 import Logout from "../components/Logout";
 import AllBooks from "../dashboard/AllBooks";
+import Home from "../home/Home";
 
 const router = createBrowserRouter([
     {

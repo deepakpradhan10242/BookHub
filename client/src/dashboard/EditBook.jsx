@@ -26,7 +26,7 @@ const EditBooks = () => {
   const [selectedBookCategory,setSelectBookCategory] = useState(bookCategories[0]);
 
   const handleChangeSelectedValue = (event) => {
-    console.log(event.target.value);
+    // console.log(event.target.value);
     setSelectBookCategory(event.target.value);
   }
 
