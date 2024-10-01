@@ -39,7 +39,7 @@ const router = createBrowserRouter([
        {
         path: '/book/:id',
         element:  <SingleBook/>,
-        loader: ({params}) =>fetch(`http://localhost:5000/book/${params.id}`)
+        loader: ({params}) =>fetch(`https://bookhub-hoe6.onrender.com/book/${params.id}`)
        }
       ]
     },
@@ -67,7 +67,7 @@ const router = createBrowserRouter([
         {
           path:"/admin/dashboard/edit-books/:id",
           element:<EditBook/>,
-          loader : ({params})=>fetch(`http://localhost:5000/book/${params.id}`)
+          loader : ({params})=>fetch(`https://bookhub-hoe6.onrender.com/book/${params.id}`)
         }
       ]
     },
