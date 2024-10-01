@@ -10,7 +10,7 @@ const AllBooks = () => {
   const [error, setError] = useState(null); // State for errors
 
   useEffect(() => {
-    fetch("http://localhost:5000/all-books")
+    fetch("https://bookhub-hoe6.onrender.com/all-books")
       .then(res => {
         if (!res.ok) {
           throw new Error('Network response was not ok');

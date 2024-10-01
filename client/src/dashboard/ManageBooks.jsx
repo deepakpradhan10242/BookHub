@@ -33,7 +33,7 @@ const ManageBooks = () => {
 
   // Delete books
   const handleDelete = (id) => {
-    fetch(`http://localhost:5000/book/${id}`, {
+    fetch(`https://bookhub-hoe6.onrender.com/book/${id}`, {
       method: "DELETE",
     }).then(res => {
       if (!res.ok) {

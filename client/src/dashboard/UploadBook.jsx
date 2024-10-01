@@ -55,7 +55,7 @@ const UploadBook = () => {
     };
 
     //send data to db
-    fetch("http://localhost:5000/upload-book", {
+    fetch("https://bookhub-hoe6.onrender.com/upload-book", {
       method: "POST",
       headers: {
         "content-type": "application/json",
