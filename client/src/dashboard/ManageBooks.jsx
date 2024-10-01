@@ -11,7 +11,7 @@ const ManageBooks = () => {
 
   useEffect(() => {
     if (user) { // Check if user is not null
-      fetch("http://localhost:5000/all-books")
+      fetch("https://bookhub-hoe6.onrender.com/all-books")
         .then(res => {
           if (!res.ok) {
             throw new Error('Network response was not ok');
